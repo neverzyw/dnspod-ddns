@@ -4,8 +4,8 @@ import sys
 import logging
 
 # 定义配置文件目录
-# linux
-config_path = '/etc/dnspod/ddnsrc'
+# linux 使用上级目录
+config_path = '..\ddnsrc'
 # windows
 if os.name == 'nt':
     config_path = 'ddnspod.cfg'
