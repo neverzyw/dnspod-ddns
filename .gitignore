@@ -62,9 +62,10 @@ target/
 
 
 ddnspod.cfg
-
+ddnsrc
 
 # VSCODE
 .vscode/settings.json
 .vscode/tasks.json
 tasks.json
+
