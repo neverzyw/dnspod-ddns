@@ -9,9 +9,11 @@
 
 ### 本地运行
 
-在 Linux 下，配置文件路径： `/etc/dnspod/ddnsrc` (也可通过环境变量设置)
+在 Linux 下，配置文件为本目录下的： `ddnsrc` (也可通过环境变量设置)
 
 在 Windows 下，配置文件路径为本目录下的：`ddnspod.cfg`
+
+相关配置文件将不会上传GitHub
 
 可配置的有效参数如下:
 
@@ -69,7 +71,7 @@ docker run -d \
 以下为测试通过的环境：
 - [x] Windows 10
 - [x] Windows Server 2016
-- [x] Debian 4.9.8
+- [x] Debian 9.5
 
 尚未测试，应该能适配的环境：
 - [ ] Centos

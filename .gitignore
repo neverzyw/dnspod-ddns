@@ -60,7 +60,7 @@ docs/_build/
 # PyBuilder
 target/
 
-
+# 配置文件
 ddnspod.cfg
 ddnsrc
 
